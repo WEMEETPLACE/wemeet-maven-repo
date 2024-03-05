@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "message-envelop",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "message-envelop-0.0.1-SNAPSHOT-plain.jar",
+          "url": "message-envelop-0.0.1-SNAPSHOT-plain.jar",
+          "size": 11358,
+          "sha512": "bf9ad935ccbbb22896605692e8eeda0ae475221530795da09c2374cd339a49aa790427a04e67ca85078a7258058d291fdd91dee12457322e963920a978230d1f",
+          "sha256": "d0d00d479f9a39250c20b3acf097657d2e70542c4a58b97073f745293454dcd6",
+          "sha1": "ab46c33b733302368ae169c57371d451a1b0bd0e",
+          "md5": "1bbbb7352b0b12b7bed3ddfc811349b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.wemeet",
+          "module": "domain-core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "message-envelop-0.0.1-SNAPSHOT-plain.jar",
+          "url": "message-envelop-0.0.1-SNAPSHOT-plain.jar",
+          "size": 11358,
+          "sha512": "bf9ad935ccbbb22896605692e8eeda0ae475221530795da09c2374cd339a49aa790427a04e67ca85078a7258058d291fdd91dee12457322e963920a978230d1f",
+          "sha256": "d0d00d479f9a39250c20b3acf097657d2e70542c4a58b97073f745293454dcd6",
+          "sha1": "ab46c33b733302368ae169c57371d451a1b0bd0e",
+          "md5": "1bbbb7352b0b12b7bed3ddfc811349b1"
+        }
+      ]
+    }
+  ]
+}
