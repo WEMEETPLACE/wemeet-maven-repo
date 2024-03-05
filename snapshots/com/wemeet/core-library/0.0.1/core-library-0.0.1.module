@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "core-library",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-library-0.0.1-plain.jar",
+          "url": "core-library-0.0.1-plain.jar",
+          "size": 22877,
+          "sha512": "68e2a6e2d41e487cae9f826ee29249d1e0df57ccc483b47355d19a8a781f718c46824421a2b7caf55ef33acfe4b9438f61c5d4ff6d900e811700b2d28d6e9777",
+          "sha256": "1e1df8070d99cbf631f6275b8c2518044e33ef62eeaadf1f667b040c545cfc1f",
+          "sha1": "897efc71049040d2c9765767554a59e570bc77cd",
+          "md5": "f089492c67cc8ba67328c20fd56ac7f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-library-0.0.1-plain.jar",
+          "url": "core-library-0.0.1-plain.jar",
+          "size": 22877,
+          "sha512": "68e2a6e2d41e487cae9f826ee29249d1e0df57ccc483b47355d19a8a781f718c46824421a2b7caf55ef33acfe4b9438f61c5d4ff6d900e811700b2d28d6e9777",
+          "sha256": "1e1df8070d99cbf631f6275b8c2518044e33ef62eeaadf1f667b040c545cfc1f",
+          "sha1": "897efc71049040d2c9765767554a59e570bc77cd",
+          "md5": "f089492c67cc8ba67328c20fd56ac7f8"
+        }
+      ]
+    }
+  ]
+}
