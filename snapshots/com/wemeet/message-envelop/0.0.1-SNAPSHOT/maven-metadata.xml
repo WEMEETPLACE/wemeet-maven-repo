@@ -3,27 +3,27 @@
   <groupId>com.wemeet</groupId>
   <artifactId>message-envelop</artifactId>
   <versioning>
-    <lastUpdated>20240305095624</lastUpdated>
+    <lastUpdated>20240305095828</lastUpdated>
     <snapshot>
-      <timestamp>20240305.095624</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20240305.095828</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.1-20240305.095624-2</value>
-        <updated>20240305095624</updated>
+        <classifier>plain</classifier>
+        <extension>jar</extension>
+        <value>0.0.1-20240305.095828-3</value>
+        <updated>20240305095828</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-20240305.095624-2</value>
-        <updated>20240305095624</updated>
+        <value>0.0.1-20240305.095828-3</value>
+        <updated>20240305095828</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>plain</classifier>
-        <extension>jar</extension>
-        <value>0.0.1-20240305.095624-2</value>
-        <updated>20240305095624</updated>
+        <extension>pom</extension>
+        <value>0.0.1-20240305.095828-3</value>
+        <updated>20240305095828</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
