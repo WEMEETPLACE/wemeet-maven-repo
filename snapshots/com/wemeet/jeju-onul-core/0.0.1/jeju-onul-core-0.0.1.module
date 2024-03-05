@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "jeju-onul-core",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-core-0.0.1-plain.jar",
+          "url": "jeju-onul-core-0.0.1-plain.jar",
+          "size": 22908,
+          "sha512": "48d758a4395fff63bc5a8aab2b1143dd2f5c1241de34720373946680a5db9e5437fd030bb52a84e75ff6c0f213de612142b9cbb9738134efe9ef2d3a5ea7f6b7",
+          "sha256": "347606ef72ba177e8c2e435b4dea20a674e6ba00ac1b7cb3c037bc731c7e9b7e",
+          "sha1": "259788c2be2e73b013e3c7233cd7368077e6b30c",
+          "md5": "bd67ac230ac58b35b9065f9c25bbbc7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-core-0.0.1-plain.jar",
+          "url": "jeju-onul-core-0.0.1-plain.jar",
+          "size": 22908,
+          "sha512": "48d758a4395fff63bc5a8aab2b1143dd2f5c1241de34720373946680a5db9e5437fd030bb52a84e75ff6c0f213de612142b9cbb9738134efe9ef2d3a5ea7f6b7",
+          "sha256": "347606ef72ba177e8c2e435b4dea20a674e6ba00ac1b7cb3c037bc731c7e9b7e",
+          "sha1": "259788c2be2e73b013e3c7233cd7368077e6b30c",
+          "md5": "bd67ac230ac58b35b9065f9c25bbbc7f"
+        }
+      ]
+    }
+  ]
+}
