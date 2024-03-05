@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.wemeet</groupId>
+  <artifactId>message-envelop</artifactId>
+  <versioning>
+    <lastUpdated>20240305094148</lastUpdated>
+    <snapshot>
+      <timestamp>20240305.094148</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20240305.094148-1</value>
+        <updated>20240305094148</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>plain</classifier>
+        <extension>jar</extension>
+        <value>0.0.1-20240305.094148-1</value>
+        <updated>20240305094148</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1-20240305.094148-1</value>
+        <updated>20240305094148</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.1-SNAPSHOT</version>
+</metadata>
