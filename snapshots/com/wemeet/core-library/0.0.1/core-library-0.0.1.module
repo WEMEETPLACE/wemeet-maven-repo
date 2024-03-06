@@ -38,11 +38,11 @@
         {
           "name": "core-library-0.0.1-plain.jar",
           "url": "core-library-0.0.1-plain.jar",
-          "size": 22877,
-          "sha512": "68e2a6e2d41e487cae9f826ee29249d1e0df57ccc483b47355d19a8a781f718c46824421a2b7caf55ef33acfe4b9438f61c5d4ff6d900e811700b2d28d6e9777",
-          "sha256": "1e1df8070d99cbf631f6275b8c2518044e33ef62eeaadf1f667b040c545cfc1f",
-          "sha1": "897efc71049040d2c9765767554a59e570bc77cd",
-          "md5": "f089492c67cc8ba67328c20fd56ac7f8"
+          "size": 22710,
+          "sha512": "b0e3508a791f1656d527a06c35e913cf5a631a3ab5b372dfedb986a26117af9bb52e2c33870281f60c7b9d84d852764b22d999b889b00e8354df505bb09a2d0f",
+          "sha256": "be2a284c0447d432f29bbda7b2f9689da4f54b547256350d5b99bdd01b63e032",
+          "sha1": "32880a418f6131a05ea87d4ba9ad84d9b4a26730",
+          "md5": "ce0aa07e3736a4839d5913685c674254"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "core-library-0.0.1-plain.jar",
           "url": "core-library-0.0.1-plain.jar",
-          "size": 22877,
-          "sha512": "68e2a6e2d41e487cae9f826ee29249d1e0df57ccc483b47355d19a8a781f718c46824421a2b7caf55ef33acfe4b9438f61c5d4ff6d900e811700b2d28d6e9777",
-          "sha256": "1e1df8070d99cbf631f6275b8c2518044e33ef62eeaadf1f667b040c545cfc1f",
-          "sha1": "897efc71049040d2c9765767554a59e570bc77cd",
-          "md5": "f089492c67cc8ba67328c20fd56ac7f8"
+          "size": 22710,
+          "sha512": "b0e3508a791f1656d527a06c35e913cf5a631a3ab5b372dfedb986a26117af9bb52e2c33870281f60c7b9d84d852764b22d999b889b00e8354df505bb09a2d0f",
+          "sha256": "be2a284c0447d432f29bbda7b2f9689da4f54b547256350d5b99bdd01b63e032",
+          "sha1": "32880a418f6131a05ea87d4ba9ad84d9b4a26730",
+          "md5": "ce0aa07e3736a4839d5913685c674254"
         }
       ]
     }
