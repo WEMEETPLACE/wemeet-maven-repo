@@ -12,6 +12,17 @@
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
+      <groupId>org.springframework.restdocs</groupId>
+      <artifactId>spring-restdocs-mockmvc</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.epages</groupId>
+      <artifactId>restdocs-api-spec-mockmvc</artifactId>
+      <version>0.19.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
       <version>1.9.22</version>
@@ -31,6 +42,11 @@
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-reflect</artifactId>
       <version>1.9.22</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -27,6 +27,17 @@
       },
       "dependencies": [
         {
+          "group": "org.springframework.restdocs",
+          "module": "spring-restdocs-mockmvc"
+        },
+        {
+          "group": "com.epages",
+          "module": "restdocs-api-spec-mockmvc",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
@@ -38,11 +49,11 @@
         {
           "name": "wemeet-rest-docs-0.0.1-plain.jar",
           "url": "wemeet-rest-docs-0.0.1-plain.jar",
-          "size": 398,
-          "sha512": "445a72ad116199e78a184b13a9cf587f1b38ec0209301a6b58e8c096273aac2510e0ac93b38b9f9ee80373010a32fa79b2e8356ded6062d031d4e8061e373d92",
-          "sha256": "8bd8a584772cd1b947f095baf2f982eab10d87fb6c1e553845e3214938bb25ad",
-          "sha1": "3734054b340ecf08781b1e6def5e7c058b137471",
-          "md5": "a9ccc4ab7d6464d9f3777875d6adb73c"
+          "size": 17047,
+          "sha512": "065c8fbbc3f5ecc0f3e3a5f8bf576c1050e1f124df0fbe91848ee4e2433165be2df8e3d5ca59cc4cc473169b5307212bf3b28288a2a96708f3a63c6bdab0a534",
+          "sha256": "2d3c78b187714ded5c92dc4de8e50d1401a05e504fd5a9d1ba4e614fd0659db9",
+          "sha1": "fe57ad2ecbea4bcb14a057dcd4412bc20824dd6b",
+          "md5": "d28ef184531320e559582dc441337476"
         }
       ]
     },
@@ -74,6 +85,21 @@
           }
         },
         {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-test"
+        },
+        {
+          "group": "org.springframework.restdocs",
+          "module": "spring-restdocs-mockmvc"
+        },
+        {
+          "group": "com.epages",
+          "module": "restdocs-api-spec-mockmvc",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
@@ -85,11 +111,11 @@
         {
           "name": "wemeet-rest-docs-0.0.1-plain.jar",
           "url": "wemeet-rest-docs-0.0.1-plain.jar",
-          "size": 398,
-          "sha512": "445a72ad116199e78a184b13a9cf587f1b38ec0209301a6b58e8c096273aac2510e0ac93b38b9f9ee80373010a32fa79b2e8356ded6062d031d4e8061e373d92",
-          "sha256": "8bd8a584772cd1b947f095baf2f982eab10d87fb6c1e553845e3214938bb25ad",
-          "sha1": "3734054b340ecf08781b1e6def5e7c058b137471",
-          "md5": "a9ccc4ab7d6464d9f3777875d6adb73c"
+          "size": 17047,
+          "sha512": "065c8fbbc3f5ecc0f3e3a5f8bf576c1050e1f124df0fbe91848ee4e2433165be2df8e3d5ca59cc4cc473169b5307212bf3b28288a2a96708f3a63c6bdab0a534",
+          "sha256": "2d3c78b187714ded5c92dc4de8e50d1401a05e504fd5a9d1ba4e614fd0659db9",
+          "sha1": "fe57ad2ecbea4bcb14a057dcd4412bc20824dd6b",
+          "md5": "d28ef184531320e559582dc441337476"
         }
       ]
     }
