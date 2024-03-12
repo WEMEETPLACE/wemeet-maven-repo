@@ -50,10 +50,10 @@
           "name": "wemeet-rest-docs-0.0.2-plain.jar",
           "url": "wemeet-rest-docs-0.0.2-plain.jar",
           "size": 17019,
-          "sha512": "387faa7650de7c34a9ef1bcf596b78f1a09b140df5be5957c72421f05203914884aa58a69673f92eeb809a3712b681076c89c6ce221d9506173000bf50b444ae",
-          "sha256": "ca3f8c2bafce25d5c80711f665f4fba316506460063783fe08f4ba55a81c010f",
-          "sha1": "b0b7457e204f24493fd617812adf82bf57fdbc55",
-          "md5": "1097663fba709d4813c2479a9291e765"
+          "sha512": "3d8d9a9a92a17e3d982276bc286ef3af534dab1baebfd578a65326b4200015af00bf032841cc4c2aa612cc0364bc58ed6c7cf0b2c26f787bd01973168d5e22a9",
+          "sha256": "bc7527378d5a9fcb06ace3e25af00cbca3a5158dfa009a65e87ae7c1fb72a21e",
+          "sha1": "530e8d0a8db7e4db88d4da85e35ac52cd3bc6658",
+          "md5": "d62fee9f55d7129c39cb5fd18b6ac407"
         }
       ]
     },
@@ -112,10 +112,10 @@
           "name": "wemeet-rest-docs-0.0.2-plain.jar",
           "url": "wemeet-rest-docs-0.0.2-plain.jar",
           "size": 17019,
-          "sha512": "387faa7650de7c34a9ef1bcf596b78f1a09b140df5be5957c72421f05203914884aa58a69673f92eeb809a3712b681076c89c6ce221d9506173000bf50b444ae",
-          "sha256": "ca3f8c2bafce25d5c80711f665f4fba316506460063783fe08f4ba55a81c010f",
-          "sha1": "b0b7457e204f24493fd617812adf82bf57fdbc55",
-          "md5": "1097663fba709d4813c2479a9291e765"
+          "sha512": "3d8d9a9a92a17e3d982276bc286ef3af534dab1baebfd578a65326b4200015af00bf032841cc4c2aa612cc0364bc58ed6c7cf0b2c26f787bd01973168d5e22a9",
+          "sha256": "bc7527378d5a9fcb06ace3e25af00cbca3a5158dfa009a65e87ae7c1fb72a21e",
+          "sha1": "530e8d0a8db7e4db88d4da85e35ac52cd3bc6658",
+          "md5": "d62fee9f55d7129c39cb5fd18b6ac407"
         }
       ]
     }
