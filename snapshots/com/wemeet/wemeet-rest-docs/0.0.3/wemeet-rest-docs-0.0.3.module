@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "wemeet-rest-docs",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.restdocs",
+          "module": "spring-restdocs-mockmvc"
+        },
+        {
+          "group": "com.epages",
+          "module": "restdocs-api-spec-mockmvc",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wemeet-rest-docs-0.0.3-plain.jar",
+          "url": "wemeet-rest-docs-0.0.3-plain.jar",
+          "size": 17121,
+          "sha512": "8d387df5a4ca487c0ccf8f92c9d773432f039e1fd67168074935ce4c4bc8944fc32190fd1a59ce6c22d8dec45feb7512c41c2953672b252d21974bd665e01382",
+          "sha256": "2639a7b2bcee394fc2af6da3dbccba2b8a8c13d866561d16762e76a3103e8441",
+          "sha1": "40117fa9b8e772c6f3c1da7a22a74d9dee6a37a9",
+          "md5": "9feabfe76f44949cd151390618416217"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-test"
+        },
+        {
+          "group": "org.springframework.restdocs",
+          "module": "spring-restdocs-mockmvc"
+        },
+        {
+          "group": "com.epages",
+          "module": "restdocs-api-spec-mockmvc",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wemeet-rest-docs-0.0.3-plain.jar",
+          "url": "wemeet-rest-docs-0.0.3-plain.jar",
+          "size": 17121,
+          "sha512": "8d387df5a4ca487c0ccf8f92c9d773432f039e1fd67168074935ce4c4bc8944fc32190fd1a59ce6c22d8dec45feb7512c41c2953672b252d21974bd665e01382",
+          "sha256": "2639a7b2bcee394fc2af6da3dbccba2b8a8c13d866561d16762e76a3103e8441",
+          "sha1": "40117fa9b8e772c6f3c1da7a22a74d9dee6a37a9",
+          "md5": "9feabfe76f44949cd151390618416217"
+        }
+      ]
+    }
+  ]
+}
