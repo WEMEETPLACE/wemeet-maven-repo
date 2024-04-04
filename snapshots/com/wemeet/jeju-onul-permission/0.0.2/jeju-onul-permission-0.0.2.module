@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "jeju-onul-permission",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-permission-0.0.2-plain.jar",
+          "url": "jeju-onul-permission-0.0.2-plain.jar",
+          "size": 6186,
+          "sha512": "841dc9ce0d5df833e35bcbde6a242ab88414aa84a30592f6309848845b0d702d52295c4a54b482e2f68c4111c8166caf40849f150a6b1f16b49c42f2d57d124c",
+          "sha256": "ef19c78ea2da96491d225366867a94c5d967e2456898da683bb4235852219cc5",
+          "sha1": "c1854f0e85297fd293c8a5809ad8d92187509e16",
+          "md5": "c17c92ab44423abc639b9aaedc18c064"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc"
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture-kotest",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.kotest.extensions",
+          "module": "kotest-extensions-spring",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-permission-0.0.2-plain.jar",
+          "url": "jeju-onul-permission-0.0.2-plain.jar",
+          "size": 6186,
+          "sha512": "841dc9ce0d5df833e35bcbde6a242ab88414aa84a30592f6309848845b0d702d52295c4a54b482e2f68c4111c8166caf40849f150a6b1f16b49c42f2d57d124c",
+          "sha256": "ef19c78ea2da96491d225366867a94c5d967e2456898da683bb4235852219cc5",
+          "sha1": "c1854f0e85297fd293c8a5809ad8d92187509e16",
+          "md5": "c17c92ab44423abc639b9aaedc18c064"
+        }
+      ]
+    }
+  ]
+}
