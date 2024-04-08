@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "jeju-onul-response",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-response-0.1.1-plain.jar",
+          "url": "jeju-onul-response-0.1.1-plain.jar",
+          "size": 7283,
+          "sha512": "ae55280ec10c4faf43050399fa9505c5ae02002a1b46af01a49b98eea44ff14fac8e8a3e742fec5cfb4c2a8bf91116f18362cc161ca0e62f3d3dfd772f3795d2",
+          "sha256": "3803c8b170e85c3b0d0099f77f17139cd885221ca07396a623df325bb4383574",
+          "sha1": "3c4b2ec71d90ae93c85be1fe590b40fc18460721",
+          "md5": "a8b27922b4c9147c8a727424f9ea338c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jeju-onul-response-0.1.1-plain.jar",
+          "url": "jeju-onul-response-0.1.1-plain.jar",
+          "size": 7283,
+          "sha512": "ae55280ec10c4faf43050399fa9505c5ae02002a1b46af01a49b98eea44ff14fac8e8a3e742fec5cfb4c2a8bf91116f18362cc161ca0e62f3d3dfd772f3795d2",
+          "sha256": "3803c8b170e85c3b0d0099f77f17139cd885221ca07396a623df325bb4383574",
+          "sha1": "3c4b2ec71d90ae93c85be1fe590b40fc18460721",
+          "md5": "a8b27922b4c9147c8a727424f9ea338c"
+        }
+      ]
+    }
+  ]
+}
