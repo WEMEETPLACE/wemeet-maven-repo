@@ -38,11 +38,11 @@
         {
           "name": "jeju-onul-response-0.1.8-plain.jar",
           "url": "jeju-onul-response-0.1.8-plain.jar",
-          "size": 14107,
-          "sha512": "3871b9cffffb05b95c21061191a6c6345302f8c5e911566aa9f8c810b58335f124702bc11553d8e09e2d6dd088a5e23b7dcd3ef925b3acf6271363d32aeab23e",
-          "sha256": "a858ac014e9c6740b0488498e59b8e6ba5210a8b7935e9cb5ff81dd1f2cd49a5",
-          "sha1": "c50f4d60ca34171ae76101310f786a9036c48b22",
-          "md5": "27b5cda9250025d3d27d20b21b45c316"
+          "size": 14329,
+          "sha512": "1999e3d4d3dc4c4bd62e24c3135a0c2c14ac31992139badd260dd256806a3966a80371ffcf17c33d47aab6d246144092475a67143d8e9c5acdc2eb476736b700",
+          "sha256": "013eb2c38847f1241c2a3d949a7c790731a93b92f3320a61b995ec393051d5f2",
+          "sha1": "9bdd1370b015d21de6c611e4e79c2bb98e6012af",
+          "md5": "448d20d5767367131f290dbb3a854d60"
         }
       ]
     },
@@ -74,11 +74,11 @@
         {
           "name": "jeju-onul-response-0.1.8-plain.jar",
           "url": "jeju-onul-response-0.1.8-plain.jar",
-          "size": 14107,
-          "sha512": "3871b9cffffb05b95c21061191a6c6345302f8c5e911566aa9f8c810b58335f124702bc11553d8e09e2d6dd088a5e23b7dcd3ef925b3acf6271363d32aeab23e",
-          "sha256": "a858ac014e9c6740b0488498e59b8e6ba5210a8b7935e9cb5ff81dd1f2cd49a5",
-          "sha1": "c50f4d60ca34171ae76101310f786a9036c48b22",
-          "md5": "27b5cda9250025d3d27d20b21b45c316"
+          "size": 14329,
+          "sha512": "1999e3d4d3dc4c4bd62e24c3135a0c2c14ac31992139badd260dd256806a3966a80371ffcf17c33d47aab6d246144092475a67143d8e9c5acdc2eb476736b700",
+          "sha256": "013eb2c38847f1241c2a3d949a7c790731a93b92f3320a61b995ec393051d5f2",
+          "sha1": "9bdd1370b015d21de6c611e4e79c2bb98e6012af",
+          "md5": "448d20d5767367131f290dbb3a854d60"
         }
       ]
     }
