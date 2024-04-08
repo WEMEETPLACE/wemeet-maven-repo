@@ -3,7 +3,7 @@
   "component": {
     "group": "com.wemeet",
     "module": "jeju-onul-response",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -36,13 +36,13 @@
       ],
       "files": [
         {
-          "name": "jeju-onul-response-0.1.3-plain.jar",
-          "url": "jeju-onul-response-0.1.3-plain.jar",
+          "name": "jeju-onul-response-0.1.4-plain.jar",
+          "url": "jeju-onul-response-0.1.4-plain.jar",
           "size": 13855,
-          "sha512": "8133cb9ceb1291e9aefe2c3c039ff3ddef961cf1ffbd9af5cc4046edc8358059f5275f660683a10885ca098213a3598c6d40c790981b7f1a1f57493cf8d33f71",
-          "sha256": "96bfcda5dae254f9a69247e0c581ade803cbddeeefabff46e4a32a979698bd7f",
-          "sha1": "25121c94f69b3752539cd53142008df3469e47be",
-          "md5": "64f13abf1de4fa3c45f40b05cbccce43"
+          "sha512": "bf27c2bed28af64e0d0753968648c7b0140dec9677dc19243a06545a5b928784287d4ced643e6ca35342a07ed5aa1e644e5aaf9029da2232f12ecb9486fc90b4",
+          "sha256": "d718859a1738e3c5b38d4a7996e449acc735d586a1360cf2d093582e71db8650",
+          "sha1": "b76dd6cc79ad7fb0fac5cccf012de5658f0e45ca",
+          "md5": "f7da39828d76817f09545ec08acca40b"
         }
       ]
     },
@@ -72,13 +72,13 @@
       ],
       "files": [
         {
-          "name": "jeju-onul-response-0.1.3-plain.jar",
-          "url": "jeju-onul-response-0.1.3-plain.jar",
+          "name": "jeju-onul-response-0.1.4-plain.jar",
+          "url": "jeju-onul-response-0.1.4-plain.jar",
           "size": 13855,
-          "sha512": "8133cb9ceb1291e9aefe2c3c039ff3ddef961cf1ffbd9af5cc4046edc8358059f5275f660683a10885ca098213a3598c6d40c790981b7f1a1f57493cf8d33f71",
-          "sha256": "96bfcda5dae254f9a69247e0c581ade803cbddeeefabff46e4a32a979698bd7f",
-          "sha1": "25121c94f69b3752539cd53142008df3469e47be",
-          "md5": "64f13abf1de4fa3c45f40b05cbccce43"
+          "sha512": "bf27c2bed28af64e0d0753968648c7b0140dec9677dc19243a06545a5b928784287d4ced643e6ca35342a07ed5aa1e644e5aaf9029da2232f12ecb9486fc90b4",
+          "sha256": "d718859a1738e3c5b38d4a7996e449acc735d586a1360cf2d093582e71db8650",
+          "sha1": "b76dd6cc79ad7fb0fac5cccf012de5658f0e45ca",
+          "md5": "f7da39828d76817f09545ec08acca40b"
         }
       ]
     }
