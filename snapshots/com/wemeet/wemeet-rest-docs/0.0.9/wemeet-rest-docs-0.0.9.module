@@ -3,7 +3,7 @@
   "component": {
     "group": "com.wemeet",
     "module": "wemeet-rest-docs",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -47,13 +47,13 @@
       ],
       "files": [
         {
-          "name": "wemeet-rest-docs-0.0.8-plain.jar",
-          "url": "wemeet-rest-docs-0.0.8-plain.jar",
+          "name": "wemeet-rest-docs-0.0.9-plain.jar",
+          "url": "wemeet-rest-docs-0.0.9-plain.jar",
           "size": 16612,
-          "sha512": "e32fcccc2091300bc5427c65b7c86aa7b2a3a1e815da67f154c5f2392aa60be2848795165b40d2b4c9c832565d535625c4654fb62b857d29082e326e919d82db",
-          "sha256": "7dcdf35baec834610b1243b16bbb5f406ce4c5488de2160b0f81887f359f7812",
-          "sha1": "3ac1bcb99f45b14a41a5392625e9b4ffbdede631",
-          "md5": "878931c493f6bc1258cb99e2944baf64"
+          "sha512": "70fe888f8861f4146c708c6505c0ab110df1056665a6a7bf5fd3bf469032e71f68a500874f4116cc09638cf30f82568b08c0d732394ec777686299d8d0dddf88",
+          "sha256": "dd2247297e37876e3d877fc0a466118099f6b934c902865dbcd95d425e078d06",
+          "sha1": "23082f9af6ff219f51c2342f0fcd68b2b05ec5f2",
+          "md5": "d55060b351162a230048936e166fa954"
         }
       ]
     },
@@ -109,13 +109,13 @@
       ],
       "files": [
         {
-          "name": "wemeet-rest-docs-0.0.8-plain.jar",
-          "url": "wemeet-rest-docs-0.0.8-plain.jar",
+          "name": "wemeet-rest-docs-0.0.9-plain.jar",
+          "url": "wemeet-rest-docs-0.0.9-plain.jar",
           "size": 16612,
-          "sha512": "e32fcccc2091300bc5427c65b7c86aa7b2a3a1e815da67f154c5f2392aa60be2848795165b40d2b4c9c832565d535625c4654fb62b857d29082e326e919d82db",
-          "sha256": "7dcdf35baec834610b1243b16bbb5f406ce4c5488de2160b0f81887f359f7812",
-          "sha1": "3ac1bcb99f45b14a41a5392625e9b4ffbdede631",
-          "md5": "878931c493f6bc1258cb99e2944baf64"
+          "sha512": "70fe888f8861f4146c708c6505c0ab110df1056665a6a7bf5fd3bf469032e71f68a500874f4116cc09638cf30f82568b08c0d732394ec777686299d8d0dddf88",
+          "sha256": "dd2247297e37876e3d877fc0a466118099f6b934c902865dbcd95d425e078d06",
+          "sha1": "23082f9af6ff219f51c2342f0fcd68b2b05ec5f2",
+          "md5": "d55060b351162a230048936e166fa954"
         }
       ]
     }
