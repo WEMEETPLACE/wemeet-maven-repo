@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wemeet",
+    "module": "core-library",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-library-0.0.4-plain.jar",
+          "url": "core-library-0.0.4-plain.jar",
+          "size": 28330,
+          "sha512": "6a463747a50e7cabe456668d5807534f3fc23020bdce2db4cfe893685ddd52eb2fd379d039e0d6ded6e04d3c78caabb2b36b71d7b4a42ec1b8ad9f0011d3fcff",
+          "sha256": "1971f8f55e857405baa5a2ecc78e9c6c1e289070fd20f030e0f4c00a9ce31e67",
+          "sha1": "e522c03a31320328ac8765dc5fdca4aaf4c84c42",
+          "md5": "b63dd32f82c1f551801e4279e696f9e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson"
+        },
+        {
+          "group": "org.locationtech.jts",
+          "module": "jts-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-spatial",
+          "version": {
+            "requires": "6.4.1.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-library-0.0.4-plain.jar",
+          "url": "core-library-0.0.4-plain.jar",
+          "size": 28330,
+          "sha512": "6a463747a50e7cabe456668d5807534f3fc23020bdce2db4cfe893685ddd52eb2fd379d039e0d6ded6e04d3c78caabb2b36b71d7b4a42ec1b8ad9f0011d3fcff",
+          "sha256": "1971f8f55e857405baa5a2ecc78e9c6c1e289070fd20f030e0f4c00a9ce31e67",
+          "sha1": "e522c03a31320328ac8765dc5fdca4aaf4c84c42",
+          "md5": "b63dd32f82c1f551801e4279e696f9e1"
+        }
+      ]
+    }
+  ]
+}
